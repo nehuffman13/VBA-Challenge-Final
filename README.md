@@ -19,6 +19,13 @@ Sub Testing()
         ws.Cells(1, 11).Value = "Percent Change"
         ws.Cells(1, 12).Value = "Total Stock Volume"
         
+        'to set the start values
+        date_open = 0
+        date_close = 0
+        yearly_change = 0
+        percent_change = 0
+        
+        
         
     
     
